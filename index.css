@@ -1,0 +1,93 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+}
+
+i{
+color: coral;
+     font-size: 15px;
+}
+.phone{
+    margin-left: 10px;
+}
+.email{
+    margin-right: 20px;
+}
+.nav{
+  
+    display:flex ;
+    justify-content:space-between;
+    font-family: sans-serif;
+    background-color: #d1e3ff;
+}
+
+.navbar{
+
+    gap:25px;
+    font-size: 12px;
+    display: flex;
+    margin-right: 50px;
+}
+.h33{
+    color: skyblue;
+}
+h1{
+    color: darkslateblue;
+}
+.inance{
+    margin-left: 20px;
+}
+.all{
+    background-color: #d1e3ff;
+}
+.home{
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-color: #d1e3ff;
+}
+img{
+    height: 600px;
+}
+button{
+    border:1px solid;
+    border-radius: 8px;
+    width: 150px;
+    background-color: orange;
+    height: 40px;
+    color: #fff;
+}
+button:hover{
+    background-color: transparent;
+    border: 1px solid orange;
+    color: orange;
+}
+ .carts img{
+    height: 200px;
+    color: darkviolet;
+}
+.carts{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+.card{
+    height:300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 300px;
+    margin-left: 100px;
+    align-items: center;
+    text-align: center;
+}
+h2{
+    color: blueviolet;
+    font-family: sans-serif;
+}
+.card:hover{
+    background-color: orange;
+}
